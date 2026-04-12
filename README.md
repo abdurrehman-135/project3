@@ -63,3 +63,12 @@ npm run dev
 - Real-time task/project/notification updates with Socket.io
 - Search, filters, sorting, loading states, and empty states
 - Responsive dashboard, projects, task board, task detail, calendar, and notifications
+
+
+# Output
+
+![first image](devImages/image1.png)
+
+![second image](devImages/image2.png)
+
+![third image](devImages/image3.png)
