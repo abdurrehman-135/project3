@@ -55,6 +55,30 @@ npm run dev
 - Frontend: `http://localhost:5173`
 - Backend: `http://localhost:5000`
 
+## Seed demo data
+
+After configuring `backend/.env`, populate MongoDB with a detailed demo workspace:
+
+```bash
+npm run seed
+```
+
+The seeder resets the app collections and creates users, projects, tasks, subtasks, comments, notifications, and activity history.
+
+Demo login:
+
+```text
+ava.patel@taskflow.demo
+password123
+```
+
+
+To clear the seeded collections without re-importing demo records:
+
+```bash
+npm run seed:destroy
+```
+
 ## Core features
 
 - Registration and login with JWT auth
